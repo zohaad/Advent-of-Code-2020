@@ -17,6 +17,7 @@ for i in range(1, height):
 print('part 1:', tree_count)
 
 # part 2
+
 def count_trees(tree_map, right, down):
     tree_count = 0
     j = 0 # starting column position
