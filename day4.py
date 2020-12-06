@@ -1,6 +1,5 @@
-from pathlib import Path
-from functools import reduce
 import re
+from pathlib import Path
 
 passports = Path('inputs/4.txt').read_text().split('\n\n')
 

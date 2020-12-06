@@ -1,5 +1,4 @@
 from pathlib import Path
-from functools import reduce
 
 lines = Path('inputs/2.txt').read_text().split('\n')
 

@@ -1,6 +1,6 @@
-from pathlib import Path
-from operator import mul
 from functools import reduce
+from operator import mul
+from pathlib import Path
 
 tree_map = [[c for c in row] for row in Path('inputs/3.txt').read_text().split('\n')]
 
@@ -17,6 +17,7 @@ for i in range(1, height):
 print('part 1:', tree_count)
 
 # part 2
+
 
 def count_trees(tree_map, right, down):
     tree_count = 0
