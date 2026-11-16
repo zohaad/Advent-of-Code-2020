@@ -2,7 +2,7 @@ from functools import reduce
 from operator import mul
 from pathlib import Path
 
-tree_map = [[c for c in row] for row in Path("inputs/3.txt").read_text().split("\n")]
+tree_map = [[*row] for row in Path("inputs/3.txt").read_text().split("\n")]
 
 tree_count = 0
 j = 0  # position
